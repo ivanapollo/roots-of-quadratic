@@ -12,13 +12,22 @@ int main()
     printf("Введите коэффициенты квадратного уравнения:\n");
 
     printf("a = ");
-    scanf("%ld", &a);
+    if (!scanf("%ld", &a)) {
+        fprintf(stderr, "Ошибка ввода\n");
+        return 1;
+    }
 
     printf("b = ");
-    scanf("%ld", &b);
+    if (!scanf("%ld", &b)) {
+        fprintf(stderr, "Ошибка ввода\n");
+        return 1;
+    }
 
     printf("c = ");
-    scanf("%ld", &c);
+    if (!scanf("%ld", &c)) {
+        fprintf(stderr, "Ошибка ввода\n");
+        return 1;
+    }
 
     if (!a) {
         fprintf(stderr, "Не квадратное уравнение, старший коэффициент равен нулю.\n");
