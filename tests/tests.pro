@@ -16,9 +16,13 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=
+HEADERS += \
+    test.h \
+    ../app/quadratic.h \
 
-SOURCES += main.cpp
+
+SOURCES += main.cpp \
+    ../app/quadratic.c
 
 INCLUDEPATH += ../app
 
