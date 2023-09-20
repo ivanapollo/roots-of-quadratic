@@ -4,4 +4,4 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ivanapollo_roots-of-quadratic&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ivanapollo_roots-of-quadratic)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ivanapollo_roots-of-quadratic&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ivanapollo_roots-of-quadratic)
 
-# roots-of-quadratic
+# Лабораторная работа №1 по дисциплине "Основы разработки ПО": программа для вычисления корней квадратного уравнения
