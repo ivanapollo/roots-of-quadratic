@@ -38,15 +38,15 @@ int main()
     int ret = find_quad_eq_roots(a, b, c, ans);
 
     switch (ret) {
-    case 0:
-        printf("Нет корней в действительных числах.\n");
-        break;
-    case 1:
-        printf("1 корень: %Lf\n", ans[0]);
-        break;
-    case 2:
-        printf("2 корня: %Lf %Lf\n", ans[0], ans[1]);
-        break;
+        case 0:
+            printf("Нет корней в действительных числах.\n");
+            break;
+        case 1:
+            printf("1 корень: %Lf\n", ans[0]);
+            break;
+        case 2:
+            printf("2 корня: %Lf %Lf\n", ans[0], ans[1]);
+            break;
     }
 
     return 0;

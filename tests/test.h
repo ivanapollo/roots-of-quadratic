@@ -70,6 +70,12 @@ TEST(quadratic, 2_solutions) {
     ASSERT_EQ(ret, 2);
     ASSERT_DOUBLE_EQ(ans[0], 1 - phi);
     ASSERT_DOUBLE_EQ(ans[1], phi);
+
+    ret = find_quad_eq_roots(-1, -3, -2, ans);
+    ASSERT_EQ(ret, 2);
+    ASSERT_DOUBLE_EQ(ans[0], -2);
+    ASSERT_DOUBLE_EQ(ans[1], -1);
+
 }
 
 #endif // TEST_H
